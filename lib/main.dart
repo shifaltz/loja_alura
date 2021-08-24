@@ -117,7 +117,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
-      appBar: AppBarCustom(titulo: 'Loja Alura', carrinho: false),
+      appBar: AppBarCustom(titulo: 'Loja', carrinho: false),
       body: Column(
         children: [
           Row(
